@@ -18,9 +18,11 @@ You must have the same prerequisites as if you were to make [your own plugin](ht
 ### Steps
 
 1. Use the instructions on installing a [Community Plugin](https://help.obsidian.md/Extending+Obsidian/Community+plugins#Install+a+community+plugin) to find the plugin directory for your vault.
-2. Clone the repository to that location:
+2. Clone the repository to that location and initialize it like you would your own plugin:
 ```bash
-git clone
+git clone https://github.com/AnEmortalKid/glitched-analytics-plugin
+npm i
+npm run build
 ```
 
 
